@@ -2,7 +2,7 @@
 
 <ul>
 <% actors_names.each do |actor| %>
-<li><%= actor['name'] %></li>
+<li><a href="/actors/<%= actor['name'] %>"><%= actor['name'] %></a></li>
 <% end %>
 </ul>
 
